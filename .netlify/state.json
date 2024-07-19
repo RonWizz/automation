@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Kolkata",
+			"country": {
+				"code": "IN",
+				"name": "India"
+			},
+			"subdivision": {
+				"code": "WB",
+				"name": "West Bengal"
+			},
+			"timezone": "Asia/Kolkata",
+			"latitude": 22.518,
+			"longitude": 88.3832
+		},
+		"timestamp": 1721360642978
+	}
+}

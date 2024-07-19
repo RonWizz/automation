@@ -1,0 +1,211 @@
+.section-2 {
+  padding: 80px 60px 60px;
+  background-color: hsla(0, 0.00%, 91.33%, 1.00);
+}
+
+@media screen and (max-width: 767px) {
+  .section-2 {
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.section-2.overflow {
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.section-2.overflow.padding {
+  padding-bottom: 210px;
+  background-color: hsla(0, 0.00%, 100.00%, 1.00);
+}
+
+@media screen and (max-width: 991px) {
+  .section-2.overflow.padding {
+    padding-bottom: 180px;
+  }
+}
+
+.section-2.footer-section {
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-color: hsla(221.05263157894737, 24.05%, 30.98%, 1.00);
+}
+
+.container-4 {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  color: hsla(0, 0.00%, 100.00%, 1.00);
+}
+
+.heading-12 {
+  color: hsla(0, 1.15%, 56.16%, 1.00);
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .heading-12 {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+
+.testemonial-slider {
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+  background-color: transparent;
+}
+
+.mask {
+  overflow: visible;
+}
+
+.slide {
+  width: 367px;
+  height: auto;
+  margin-right: 30px;
+  -webkit-text-stroke-color: transparent;
+}
+
+@media screen and (max-width: 479px) {
+  .slide {
+    width: 95%;
+    margin-right: 15px;
+    padding: 0px;
+  }
+}
+
+.testimonial-card {
+  width: 367px;
+  padding: 60px 40px 40px;
+
+  border-radius: 8px;
+
+  background-color: transparent;
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-position: 0px 0px;
+  background-size: auto;
+
+  box-shadow: 0 15px 35px 0 hsla(213, 25.00%, 31.37%, 0.15);
+
+  color: transparent;
+}
+
+@media screen and (max-width: 479px) {
+  .testimonial-card {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+.testimonial-card.card3 {
+  background-image: url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49ef1_pexels-craig-adderley-3411135-min.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 100ms ease;
+}
+
+.testimonial-card.card3:hover {
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 100.00%, 0.00), hsla(0, 0.00%, 11.00%, 1.00)), url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49ef1_pexels-craig-adderley-3411135-min.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.testimonial-card.card4 {
+  background-image: url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49efa_pexels-pixabay-462331.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 100ms ease;
+}
+
+.testimonial-card.card4:hover {
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 100.00%, 0.00), hsla(0, 0.00%, 11.00%, 1.00)), url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49efa_pexels-pixabay-462331.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.testimonial-card.card2 {
+  background-image: url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49ee8_pexels-elvis-vasquez-421655-min.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 100ms ease;
+}
+
+.testimonial-card.card2:hover {
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 100.00%, 0.00), hsla(0, 0.00%, 10.67%, 1.00)), url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49ee8_pexels-elvis-vasquez-421655-min.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.testimonial-card.card5 {
+  background-image: url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49ed6_pexels-juan-samudio-9320448-min.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 100ms ease;
+}
+
+.testimonial-card.card5:hover {
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 100.00%, 0.00), hsla(0, 0.00%, 11.00%, 1.00)), url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49ed6_pexels-juan-samudio-9320448-min.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.testimonial-card.card1 {
+  background-image: url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49edf_pexels-aleksandar-pasaric-325193-min.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 100ms ease;
+}
+
+.testimonial-card.card1:hover {
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 100.00%, 0.00), hsla(0, 0.00%, 10.00%, 1.00)), url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64de417c9d003c7004c49edf_pexels-aleksandar-pasaric-325193-min.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.image-11 {
+  margin-bottom: 50px;
+  margin-left: -3px;
+}
+
+.div-block-12 {
+  margin-top: 90px;
+}
+
+.heading-13 {
+  color: var(--white-4f231e50);
+  text-align: center;
+}
+
+.left-arrow {
+  color: hsla(189, 86.62%, 55.15%, 1.00);
+}
+
+.arrow {
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: -80px;
+
+  width: 40px;
+
+  color: hsla(189, 86.62%, 55.15%, 1.00);
+}
+
+.left-arrow.arrow.left {
+  right: 60px;
+}
