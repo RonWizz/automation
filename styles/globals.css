@@ -1,0 +1,294 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.container.narrow {
+  width: 100%;
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.container:small {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: clamp(3rem, 14vw, 14vw);
+  }
+}
+
+
+/*------------Global CSS-------------*/
+:root {
+  --white: white;
+  --black: black;
+}
+
+.div-block-37 {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 40px;
+  display: flex;
+  position: relative;
+}
+
+.paragraph-30 {
+  color: #000;
+}
+
+.div-block-36 {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.link-block {
+  text-decoration: none;
+}
+
+.div-block-38 {
+  justify-content: space-between;
+  align-items: stretch;
+  padding-bottom: 40px;
+}
+
+.heading-41 {
+  color: #e3b130;
+}
+
+.image-36 {
+  width: 500px;
+}
+
+.div-block-41 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.div-block-41.div-41 {
+  border: 1px solid #b9b9b9;
+  border-radius: 9px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.slag {
+  color: #000;
+  line-height: 25px;
+}
+
+.heading-34 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  position: absolute;
+}
+
+.collection-item {
+  text-align: center;
+}
+
+.div-block-42 {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 40px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-42.mob-img {
+  width: 400px;
+}
+
+.div-block-43 {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.div-block-44 {
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.heading-42 {
+  color: #e3b130;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-37 {
+    padding-right: 0;
+  }
+
+  .div-block-36 {
+    max-width: 400px;
+    padding-bottom: 20px;
+  }
+
+  .div-block-38 {
+    flex-direction: column;
+  }
+
+  .div-block-41, .heading-34 {
+    text-align: center;
+  }
+
+  .div-block-42 {
+    padding-right: 0;
+  }
+
+  .div-block-43 {
+    max-width: 400px;
+    padding-bottom: 20px;
+  }
+
+  .div-block-44 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block-37 {
+    width: 250px;
+  }
+
+  .div-block-37.mob-img {
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .div-block-36 {
+    max-width: 250px;
+  }
+
+  .slag {
+    line-height: 20px;
+  }
+
+  .heading-34 {
+    font-size: 40px;
+  }
+
+  .div-block-42 {
+    width: 250px;
+  }
+
+  .div-block-42.mob-img {
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .div-block-43 {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-37 {
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .paragraph-30 {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+
+  .div-block-36 {
+    max-width: 300px;
+  }
+
+  .div-block-38 {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .image-36 {
+    padding-left: 0;
+  }
+
+  .div-block-41 {
+    text-align: center;
+  }
+
+  .div-block-41.div-41 {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .slag {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .heading-34 {
+    font-size: 40px;
+  }
+
+  .div-block-42 {
+    width: 200px;
+    padding-left: 0;
+  }
+
+  .div-block-43 {
+    max-width: 300px;
+  }
+
+  .div-block-44 {
+    flex-direction: column;
+    padding-right: 0;
+  }
+}

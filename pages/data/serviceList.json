@@ -1,0 +1,244 @@
+[
+    {
+
+    "id": "1",
+    "price": "10000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Routine Vehicle Maintenance Checks",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+    },
+
+
+    {
+    "id": "2",
+    "price": "15000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Timing Belt and Chain Replacement",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+    },
+
+
+    {
+    "id": "3",
+    "price": "9000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Fuel System Cleaning and Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+    },
+
+
+    {
+    "id": "4",
+    "price": "20000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Radiator and Cooling System Services",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "fileId": "6556f4f683ff0fa1fa6e1394",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+    },
+
+
+    {
+    "id": "5",
+    "price": "8000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Suspension and Steering Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+    },
+
+
+    {
+    "id": "6",
+    "price": "9500",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Exhaust System Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+    },
+
+
+    {
+    "id": "7",
+    "price": "15000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Air Conditioning and Heating Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+    },
+
+
+    {
+    "id": "8",
+    "price": "12000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Engine Diagnostics and Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+    },
+
+
+    {
+    "id": "9",
+    "price": "19000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Battery Testing and Replacement",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+    },
+
+
+    {
+    "id": "10",
+    "price": "20000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Wheel Alignment",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+    },
+
+
+    {
+    "id": "11",
+    "price": "16000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Tire Rotation and Balancing",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+    },
+
+
+    {
+    "id": "12",
+    "price": "50000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Transmission Services",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+    },
+
+
+    {
+    "id": "13",
+    "price": "22000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Brake Inspection and Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+    },
+
+
+    {
+    "id": "14",
+    "price": "30000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Oil Change and Filter Replacement",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+    },
+
+
+    {
+    "id": "15",
+    "price": "28000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Electrical System Services",
+    "description": "Autocar X Webflow Template MAINTENANCE At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+    },
+
+
+    {
+    "id": "16",
+    "price": "25000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Windshield Wiper Replacement",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+    },
+
+
+    {
+    "id": "17",
+    "price": "32000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Headlight and Taillight Replacement",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+    },
+
+
+    {
+    "id": "18",
+    "price": "40000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Pre-purchase Vehicle Inspection",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f6394314b2ea43c66143_62727e0fad3368411ffe1ae3_brakes-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+    "alt": null
+    },
+
+
+    {
+    "id": "19",
+    "price": "14000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "Fleet Services for Business Vehicles",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "fileId": "6556f67a878527715055e26a",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f67a878527715055e26a_62727e0fad33688147fe1ae1_engine-service-image-autocar-webflow-ecommerce-template.jpg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+    },
+
+
+    {
+    "id": "20",
+    "price": "30000",
+    "link": "http://car-website-1442e2.webflow.io/service-1",
+    "name": "State Emissions Testing and Repair",
+    "description": "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+    "learnmore": "LEARN MORE",
+    "url": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+    "url1": "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+    }
+]
