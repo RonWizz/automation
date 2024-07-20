@@ -1,12 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/about": "pages/about.js",
-  "/CartAmountToggle": "pages/CartAmountToggle.js",
-  "/authentication": "pages/authentication.js",
-  "/": "pages/index.js",
-  "/api/submit-form": "pages/api/submit-form.js",
-  "/services": "pages/services.js",
-  "/services/[id]": "pages/services/[id].js",
-  "/_document": "pages/_document.js"
-}
+{"/_app":"pages/_app.js","/about":"pages/about.html","/api/submit-form":"pages/api/submit-form.js","/":"pages/index.html","/CartAmountToggle":"pages/CartAmountToggle.html","/_error":"pages/_error.js","/services":"pages/services.html","/services/[id]":"pages/services/[id].html","/_document":"pages/_document.js","/404":"pages/404.html"}
