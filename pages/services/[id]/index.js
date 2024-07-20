@@ -7,7 +7,7 @@ import _styles from "../../../devlink/DynamicPage.module.css";
 import service from "../../data/serviceList.json";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { Elements } from "@stripe/react-stripe-js";
-import { stripePromise } from "../../utils/stripe/stripe.utils";
+import { stripePromise } from "../../../utils/stripe/stripe.utils";
 import PaymentForm from "../../../components/payment-form/payment-form.component";
 
 const _interactionsData = JSON.parse(

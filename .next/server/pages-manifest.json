@@ -1,7 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/about": "pages/about.js",
+  "/CartAmountToggle": "pages/CartAmountToggle.js",
+  "/authentication": "pages/authentication.js",
   "/": "pages/index.js",
-  "/services": "pages/services.js"
+  "/api/submit-form": "pages/api/submit-form.js",
+  "/services": "pages/services.js",
+  "/services/[id]": "pages/services/[id].js",
+  "/_document": "pages/_document.js"
 }
