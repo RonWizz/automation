@@ -29,7 +29,7 @@ const PaymentForm = () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ amount: 10000 }),
-    }).then((res) => res.json({url: session.url}));
+    }).then((res) => res.json());
     console.log(response);
     // const { client_secret: clientSecret } = response.paymentIntent;
 
