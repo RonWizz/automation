@@ -1,0 +1,8 @@
+[build]
+  publish = ".next"
+  command = "netlify dev"
+
+[[redirects]]
+  from = "/.netlify/functions/create-payment-intent"
+  to = "/.netlify/functions/:splat"
+  status = 200
