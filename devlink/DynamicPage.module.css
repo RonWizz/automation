@@ -425,6 +425,7 @@
   width: 100%;
 }
 
+
 .padding-section-large {
   position: relative;
   padding-top: 7rem;
@@ -599,7 +600,12 @@
 .image-13 {
   position: absolute;
 }
-
+@media screen and (max-width: 768px) {
+  .image-13{
+    width: 300px;
+    margin: auto;
+  }
+}
 .pricing_2_pricing_component {
   display: grid;
   align-items: center;
@@ -610,6 +616,8 @@
   grid-template-rows: auto;
 }
 .button {
+  font-size: 20px;
+  font-weight: 550;
   width: 200px;
   background-color: #4caf50;
   color: white;
@@ -649,48 +657,37 @@
   grid-template-rows: auto;
 }
 
+@media screen and (max-width: 768px) {
+  .pricing_2_pricing_content-list {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .pricing_2_pricing_content-list {
+    margin-top: 60%;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .pricing_2_pricing_content-list {
+    margin-top: 80%;
     grid-template-columns: 1fr;
   }
 }
-/*----------------------------------------------*/
-.cart-button1{
-  display: flex;
-  color: black;
-  font-size: 1.8rem;
-}
-.cart-button {
-  display: flex;
-  color: black;
-  font-size: 1.4rem;
-  /* justify-content: center;
-  align-items: center; */
-}
 
-.amount-toggle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* Adjust the gap between items as needed */
-}
-
-.btn{
-  background-color: white;
-}
 .heading-42 {
   font-family: 'Open Sans', sans-serif;
   color: hsla(0, 0.00%, 0.00%, 1.00);
   font-size: 30px;
   line-height: 35px;
   font-style: italic;
-  display: flex;
-  flex-direction: column;
-
 }
 
-
-
+.mob-head {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+}
 @media screen and (max-width: 479px) {
   .heading-42.mob {
     line-height: 24px;
@@ -700,6 +697,42 @@
 @media screen and (max-width: 479px) {
   .mob-head {
     font-size: 26px;
+  }
+}
+
+.div-block-28 {
+  display: flex;
+}
+
+.image-10 {
+  margin-right: 20px;
+}
+
+.heading-43 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading-43.headnig-head {
+  margin-bottom: 20px;
+}
+
+.heading-43.headnig-head.head {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .head {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .mob-head {
+    font-size: 26px;
+    display: flex;
   }
 }
 

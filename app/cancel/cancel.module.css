@@ -1,0 +1,12 @@
+/* Cancel.module.css */
+
+.container {
+    display: flex;
+    min-height: 100vh; /* equivalent to min-h-screen */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem; /* equivalent to p-24 */
+    font-size: 2.25rem; /* equivalent to text-4xl */
+  }
+  

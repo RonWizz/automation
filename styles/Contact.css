@@ -1,0 +1,74 @@
+.contact-wrapper {
+  padding: 9rem 0 5rem 0;
+  position: relative;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.common-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.status-message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #28a745; /* Green background for success */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.container {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact-inputs input[type="text"],
+.contact-inputs input[type="email"],
+.contact-inputs textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  font-size: 1rem;
+}
+
+.contact-inputs input[type="text"]:focus,
+.contact-inputs input[type="email"]:focus,
+.contact-inputs textarea:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+.contact-inputs input[type="submit"] {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(249, 105, 14);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contact-inputs input[type="submit"]:hover {
+  background-color: rgb(220, 85, 12);
+}

@@ -9,6 +9,7 @@ export function About3({ as: _Component = _Builtin.Block }) {
     <_Component
       className={_utils.cx(_styles, "section_home_benefits")}
       tag="section"
+      id="learn-more"
     >
       <_Builtin.Block
         className={_utils.cx(_styles, "padding-global")}
@@ -166,7 +167,7 @@ export function About3({ as: _Component = _Builtin.Block }) {
                       button={true}
                       block=""
                       options={{
-                        href: "#",
+                        href: "/contact",
                       }}
                     >
                       {"SCHEDULE AN APPOINTMENT"}

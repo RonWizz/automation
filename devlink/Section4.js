@@ -176,7 +176,7 @@ export function Section4({ as: _Component = _Builtin.Block }) {
                       button={true}
                       block=""
                       options={{
-                        href: "#",
+                        href: "/about",
                       }}
                     >
                       {"MORE ABOUT US"}

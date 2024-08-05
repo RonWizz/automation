@@ -285,7 +285,7 @@ export function Section3({ as: _Component = _Builtin.Block }) {
                       button={true}
                       block=""
                       options={{
-                        href: "#",
+                        href: "/contact",
                       }}
                     >
                       {"SCHEDULE AN "}

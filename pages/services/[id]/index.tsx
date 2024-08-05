@@ -4,11 +4,250 @@ import * as _Builtin from "../../../devlink/_Builtin";
 import * as _interactions from "../../../devlink/interactions";
 import * as _utils from "../../../devlink/utils";
 import _styles from "../../../devlink/DynamicPage.module.css";
-import service from "../../data/serviceList.json";
 import { FaMinus, FaPlus } from "react-icons/fa";
-import { Elements } from "@stripe/react-stripe-js";
-import { stripePromise } from "../../../utils/stripe/stripe.utils";
-import Payment from "../../../components/payment-form/payment-form.component";
+import Product from "../../Product";
+// Initialize the service array with Product objects
+const service: Product[] = [
+  {
+
+  id: "1",
+  price: 100,
+  quantity: 0,
+  name: "Routine Vehicle Maintenance Checks",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+  },
+
+
+  {
+  id: "2",
+  price: 200,
+  quantity: 0,
+  name: "Timing Belt and Chain Replacement",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+  },
+
+
+  {
+  id: "3",
+  price: 600,
+  quantity: 0,
+  name: "Fuel System Cleaning and Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+  },
+
+
+  {
+  id: "4",
+  price: 300,
+  quantity: 0,
+  name: "Radiator and Cooling System Services",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+  },
+
+
+  {
+  "id": "5",
+  price: 1500,
+  quantity: 0,
+  name: "Suspension and Steering Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+  },
+
+
+  {
+  id: "6",
+  price: 800,
+  quantity: 0,
+  name: "Exhaust System Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+  },
+
+
+  {
+  id: "7",
+  price: 700,
+  quantity: 0,
+  name: "Air Conditioning and Heating Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+  },
+
+
+  {
+  id: "8",
+  price: 400,
+  quantity: 0,
+  name: "Engine Diagnostics and Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+  },
+
+
+  {
+  id: "9",
+  price: 600,
+  quantity: 0,
+  name: "Battery Testing and Replacement",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+  },
+
+
+  {
+  id: "10",
+  price: 500,
+  quantity: 0,
+  name: "Wheel Alignment",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+  },
+
+
+  {
+  id: "11",
+  price: 100,
+  quantity: 0,
+  name: "Tire Rotation and Balancing",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+  },
+
+
+  {
+  id: "12",
+  price: 300,
+  quantity: 0,
+  name: "Transmission Services",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg"
+  },
+
+
+  {
+  id: "13",
+  price: 900,
+  quantity: 0,
+  name: "Brake Inspection and Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg"
+  },
+
+
+  {
+  id: "14",
+  price: 1700,
+  quantity: 0,
+  name: "Oil Change and Filter Replacement",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg"
+  },
+
+
+  {
+  id: "15",
+  price: 1500,
+  quantity: 0,
+  name: "Electrical System Services",
+  description: "Autocar X Webflow Template MAINTENANCE At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f39c84ae9bda7facb070_62727e0fad3368c019fe1ade_maintenance-service-image-autocar-webflow-ecommerce-template%20(1).jpg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+  },
+
+
+  {
+  id: "16",
+  price: 200,
+  quantity: 0,
+  name: "Windshield Wiper Replacement",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f4f683ff0fa1fa6e1394_62727e0fad33683183fe1adf_wheels-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+  },
+
+
+  {
+  id: "17",
+  price: 1600,
+  quantity: 0,
+  name: "Headlight and Taillight Replacement",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f607bd95ad0ca47428b8_62727e0fad3368d173fe1ae0_powder-coatin.jpeg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+  },
+
+
+  {
+  id: "18",
+  price: 1800,
+  quantity: 0,
+  name: "Pre-purchase Vehicle Inspection",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f6394314b2ea43c66143_62727e0fad3368411ffe1ae3_brakes-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg",
+  },
+
+
+  {
+  id: "19",
+  price: 600,
+  quantity: 0,
+  name: "Fleet Services for Business Vehicles",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f67a878527715055e26a_62727e0fad33688147fe1ae1_engine-service-image-autocar-webflow-ecommerce-template.jpg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+  },
+
+
+  {
+  id: "20",
+  price: 100,
+  quantity: 0,
+  name: "State Emissions Testing and Repair",
+  description: "Autocar X Webflow Template WHEELS At vitae commodo amet libero tortor blandit risus condimentum mauris.",
+  learnmore: "LEARN MORE",
+  url: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6556f591aeab34305db32765_62727e0fad336888bbfe1ae2_alignment-service-image-autocar-webflow-ecommerce-template-p-500%20(1).jpeg",
+  url1: "https://uploads-ssl.webflow.com/6556748320a5361aa757e440/6565609b4ecc4dede74beb2e_dash%2020.svg"
+  }
+]
 
 
 const _interactionsData = JSON.parse(
@@ -35,7 +274,7 @@ const services = ({ as: _Component = _Builtin.Block }) => {
 
   const router = useRouter();
   const { id } = router.query;
-  const items = destiIdData[id];
+  const product = destiIdData[id];
 
   const AMOUNT_ACTION_TYPES = {
     INCREASE: 'INCREASE',
@@ -75,27 +314,27 @@ const services = ({ as: _Component = _Builtin.Block }) => {
     }
   };
 
-  const [state, dispatch] = useReducer(amountReducer, getInitialState(items ? items.price : 0));
+  const [state, dispatch] = useReducer(amountReducer, getInitialState(product ? product.price : 0));
 
   useEffect(() => {
-    if (items) {
-      dispatch({ type: AMOUNT_ACTION_TYPES.SET, payload: { price: items.price } });
+    if (product) {
+      dispatch({ type: AMOUNT_ACTION_TYPES.SET, payload: { price: product.price } });
     }
-  }, [id, items]);
+  }, [id, product]);
 
   const setDecrease = () => {
-    if (state.amount > items.price && state.count > 1) {
-      dispatch({ type: AMOUNT_ACTION_TYPES.DECREASE, payload: { price: items.price } });
+    if (state.amount > product.price && state.count > 1) {
+      dispatch({ type: AMOUNT_ACTION_TYPES.DECREASE, payload: { price: product.price } });
     } else {
-      dispatch({ type: AMOUNT_ACTION_TYPES.SET, payload: { price: items.price } });
+      dispatch({ type: AMOUNT_ACTION_TYPES.SET, payload: { price: product.price } });
     }
   };
 
   const setIncrease = () => {
-    dispatch({ type: AMOUNT_ACTION_TYPES.INCREASE, payload: { price: items.price } });
+    dispatch({ type: AMOUNT_ACTION_TYPES.INCREASE, payload: { price: product.price } });
   };
 
-  if (!items) {
+  if (!product) {
     console.log('ID:', id, 'does not match any keys in destiIdData:');
     return null;
   }
@@ -103,7 +342,6 @@ const services = ({ as: _Component = _Builtin.Block }) => {
 
   return (
     <>
-    <Elements stripe={stripePromise}>
     <_Component className={_utils.cx(_styles, "main-wrapper")} tag="main">
       <_Builtin.Block
         className={_utils.cx(_styles, "section_pricing_1_header", "service2")}
@@ -138,7 +376,7 @@ const services = ({ as: _Component = _Builtin.Block }) => {
               <_Builtin.NavbarBrand
                 className={_utils.cx(_styles, "navbar1_logo-link")}
                 options={{
-                  href: "#",
+                  href: "/",
                 }}
               >
                 <_Builtin.Image
@@ -281,7 +519,7 @@ const services = ({ as: _Component = _Builtin.Block }) => {
                         "mobtext"
                       )}
                     >
-                      {items.name}
+                      {product.name}
                     </_Builtin.Emphasized>
                   </_Builtin.Heading>
                   <_Builtin.Paragraph
@@ -292,7 +530,7 @@ const services = ({ as: _Component = _Builtin.Block }) => {
                       "mob-text"
                     )}
                   >
-                    {items.description}
+                    {product.description}
                   </_Builtin.Paragraph>
                 </_Builtin.Block>
                 <_Builtin.Block
@@ -305,7 +543,7 @@ const services = ({ as: _Component = _Builtin.Block }) => {
                     width="551.5"
                     height="auto"
                     alt=""
-                    src={items.url}
+                    src={product.url}
                   />
                 </_Builtin.Block>
               </_Builtin.Grid>
@@ -352,31 +590,6 @@ const services = ({ as: _Component = _Builtin.Block }) => {
                       )}
                       tag="div"
                     >
-                      <_Builtin.Heading
-                        className={_utils.cx(_styles, "heading-42")}
-                        tag="h1"
-                      >
-                        
-                        <_Builtin.Strong
-                          className={_utils.cx(_styles, "mob-head")}
-                        >
-                          {"Total Amount: Rs "}{state.amount}
-                          <h1 className={_utils.cx(_styles, "cart-button1")}>How many Cars:</h1>
-                          <div className={_utils.cx(_styles, "cart-button")}>
-                            <div className={_utils.cx(_styles, "amount-toggle")}>
-                              
-                                <button className={_utils.cx(_styles, "btn")} onClick={() => setDecrease()}>
-                                    <FaMinus/>
-                                </button>
-                                <div className={_utils.cx(_styles, "amount-style")}>{state.count}</div>
-                                <button className={_utils.cx(_styles, "btn")} onClick={() => setIncrease()}>
-                                    <FaPlus/>
-                                </button>
-                            </div>
-                          </div>
-                        </_Builtin.Strong>
-                
-                      </_Builtin.Heading>
                     </_Builtin.Block>
                     <_Builtin.Block
                       className={_utils.cx(_styles, "div-block-28")}
@@ -519,8 +732,13 @@ const services = ({ as: _Component = _Builtin.Block }) => {
                         </_Builtin.Strong>
                       </_Builtin.Heading>
                     </_Builtin.Block>
-                    <button className={_utils.cx(_styles, "button")} type="submit">
-                          CheckOut
+                    <h2>
+                        <strong className="mob-head">
+                            <Product product={product} />
+                        </strong>
+                    </h2>
+                    <button className={_utils.cx(_styles, "button")} type="submit" onClick={() => router.push('/Cart')}>
+                          Go to cart
                     </button>  
                   </_Builtin.Grid>
                 </_Builtin.Block>
@@ -529,9 +747,7 @@ const services = ({ as: _Component = _Builtin.Block }) => {
           </_Builtin.Block>
         </_Builtin.Block>
       </_Builtin.Block>
-      <Payment/>
     </_Component>  
-    </Elements>
     </>
   );
 

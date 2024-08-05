@@ -8,11 +8,9 @@ import {Section4} from "@/devlink";
 import {Section5} from "@/devlink";
 import {Section6} from "@/devlink";
 import {Footer} from "@/devlink";
-import { Chart } from "@/components";
 import { useState, useEffect } from "react";
 import { createAuth0Client } from '@auth0/auth0-spa-js';
 import { UserProvider } from "../contexts/user.context";
-import { Elements } from '@stripe/react-stripe-js';
 
 export default function Jobs() {
   const copyYear = new Date().getFullYear();
@@ -45,7 +43,7 @@ export default function Jobs() {
   }, []);
   return (
     <>
-    <Elements stripe={stripePromise}>
+
     <UserProvider>
       <Script
         id="webflow-script"
@@ -69,7 +67,6 @@ export default function Jobs() {
       <Section6/>
       <Footer/>
       </UserProvider>
-      </Elements>
 
     </>
   );

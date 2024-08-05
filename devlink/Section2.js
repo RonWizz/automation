@@ -415,7 +415,7 @@ export function Section2({ as: _Component = _Builtin.Block }) {
                   button={true}
                   block=""
                   options={{
-                    href: "#",
+                    href: "/contact",
                   }}
                 >
                   {"SCHEDULE AN APPOINTMENT"}
@@ -431,7 +431,7 @@ export function Section2({ as: _Component = _Builtin.Block }) {
                   button={true}
                   block=""
                   options={{
-                    href: "#",
+                    href: "/services",
                   }}
                 >
                   {"BROWSE SERVICES"}
