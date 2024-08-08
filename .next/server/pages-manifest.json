@@ -1,18 +1,10 @@
 {
   "/_app": "pages/_app.js",
-  "/Cart": "pages/Cart.js",
-  "/Product": "pages/Product.js",
-  "/about": "pages/about.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/services": "pages/services.js",
   "/authentication": "pages/authentication.js",
   "/": "pages/index.js",
   "/services/[id]": "pages/services/[id].js",
-  "/navigation/navigation.component": "pages/navigation/navigation.component.js",
-  "/contact": "pages/contact.js",
-  "/_error": "pages/_error.js",
-  "/services": "pages/services.js",
-  "/utils/firebase/firebase.utils": "pages/utils/firebase/firebase.utils.js",
-  "/user/user.selector": "pages/user/user.selector.js",
-  "/utils/reducer/reducer.utils": "pages/utils/reducer/reducer.utils.js",
-  "/CartContext": "pages/CartContext.js",
-  "/_document": "pages/_document.js"
+  "/Cart": "pages/Cart.js"
 }
