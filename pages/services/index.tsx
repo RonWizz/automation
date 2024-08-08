@@ -8,6 +8,7 @@ import * as _utils from "../../devlink/utils";
 import _styles from "../../devlink/Service2.module.css";
 import { Footer } from "@/devlink";
 import { useState } from "react";
+import { UserProvider } from "../../contexts/user.context";
 const service: Product[] = [
   {
 
@@ -255,6 +256,7 @@ export default function Home({ as: _Component = _Builtin.Container }) {
   const [search, setSearch] = useState('')
     return (
       <>
+      <UserProvider>
         <Service1 />
         <_Component className={_utils.cx(_styles, "padding-global")} tag="div">
           <_Builtin.Block
@@ -422,6 +424,7 @@ export default function Home({ as: _Component = _Builtin.Container }) {
         </_Component>
         <Service3 />
         <Footer/>
+      </UserProvider>
       </>
     );
   }

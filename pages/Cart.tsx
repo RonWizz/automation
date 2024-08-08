@@ -11,7 +11,7 @@ const Cart = () => {
     0
   );
 
-  const handleDecrement = (productId) => {
+  const handleDecrement = (productId: number) => {
     decrementQuantity(productId);
 
     const product = cart.find((item) => item.id === productId.toString());
@@ -60,13 +60,13 @@ const Cart = () => {
                 </div>
                 <div className="flex space-x-2">
                   <button
-                    onClick={() => handleDecrement(product.id)}
+                    onClick={() => handleDecrement(Number(product.id))}
                     className="px-2 py-1 bg-red-500 text-white hover:bg-red-600 w-8 rounded focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                   >
                     -
                   </button>
                   <button
-                    onClick={() => incrementQuantity(product.id)}
+                    onClick={() => incrementQuantity(Number(product.id))}
                     className="px-2 py-1 bg-blue-500 text-white hover:bg-blue-600 w-8 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                   >
                     +

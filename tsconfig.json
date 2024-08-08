@@ -37,7 +37,7 @@
     "contexts/user.context.jsx",
     "pages/services/[id]/index.tss",
     ".next/types/**/*.ts"
-, "pages/contact.jsx"  ],
+, "pages/contact.jsx", "pages/services/[id]/index.js"  ],
   "exclude": [
     "node_modules"
   ]

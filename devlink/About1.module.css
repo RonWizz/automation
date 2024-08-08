@@ -1189,7 +1189,9 @@
 .button-4 {
   padding-top: 15px;
   padding-bottom: 15px;
-
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
   border-style: solid;
   border-width: 3px;
   border-color: hsla(0, 0.00%, 0.00%, 0.60);
@@ -1311,4 +1313,32 @@
     width: 200px;
     height: 150px;
   }
+}
+
+.button-3 {
+  border-radius: 14px;
+
+  background-color: hsla(0, 100.00%, 50.00%, 1.00);
+
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: none;
+}
+.button-5 {
+  border-radius: 14px;
+
+  background-color: hsla(0, 100.00%, 50.00%, 1.00);
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px;
 }

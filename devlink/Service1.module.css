@@ -672,3 +672,32 @@
     grid-column-end: span 1;
   }
 }
+
+.button-5 {
+  border-radius: 14px;
+
+  background-color: hsla(0, 100.00%, 50.00%, 1.00);
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.button-3 {
+  border-radius: 14px;
+
+  background-color: hsla(0, 100.00%, 50.00%, 1.00);
+
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0.00%, 0.00%, 1.00);
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: none;
+}
