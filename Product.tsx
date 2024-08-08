@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useContext } from "react";
 import { useCart } from "./CartContext";
-import styles from './product.module.css';
-import Notification from '../components/Notification'; // Import the Notification component
-import { UserContext } from '../contexts/user.context';
+import styles from '@/pages/product.module.css';
+import Notification from './components/Notification'; // Import the Notification component
+import { UserContext } from './contexts/user.context';
 interface ProductProps {
   product: Product;
 }

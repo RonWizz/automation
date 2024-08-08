@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import '@/devlink/global.css'
 import { Provider } from 'react-redux';
-import { CartProvider } from "./CartContext";
+import { CartProvider } from "../CartContext";
 import { UserProvider } from "../contexts/user.context";
 // import '@/components/button/button.styles.scss'
 

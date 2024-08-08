@@ -4,10 +4,10 @@ import * as _Builtin from "../../../devlink/_Builtin";
 import * as _interactions from "../../../devlink/interactions";
 import * as _utils from "../../../devlink/utils";
 import _styles from "../../../devlink/DynamicPage.module.css";
-import Product from "../../Product";
+import Product from "../../../Product";
 import { useContext } from 'react';
 import { UserContext } from '../../../contexts/user.context';
-import { signOutUser } from '../../utils/firebase/firebase.utils';
+import { signOutUser } from '../../../utils/firebase/firebase.utils';
 
 
 const service = [

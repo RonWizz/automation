@@ -1,6 +1,6 @@
 import "@/devlink/global.css";
 import { DevLinkProvider } from "@/devlink/DevLinkProvider";
-import { CartProvider } from "./pages/CartContext";
+import { CartProvider } from "./CartContext";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

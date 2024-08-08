@@ -1,5 +1,5 @@
 import React from 'react';
-import Product from "../Product";
+import Product from "../../Product";
 import { Service1 } from "../../devlink/Service1";
 import { Service3 } from "@/devlink/Service3";
 import Link from "next/link";
