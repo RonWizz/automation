@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Cancel.module.css";
+import styles from "./cancel.module.css";
 
 const Cancel = () => {
   return (
